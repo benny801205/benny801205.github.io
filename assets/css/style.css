@@ -574,7 +574,7 @@ small {
 	
 }
 
-span.badge{
+span.label{
 	
 	display: inline-block;
     padding: .25em .4em;
@@ -585,8 +585,16 @@ span.badge{
     white-space: nowrap;
     vertical-align: baseline;
 	color: white;
-	
+	padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
 }
+
+
+
+
+
+
 
 
 
