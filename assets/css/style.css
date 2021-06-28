@@ -567,7 +567,12 @@ small {
 	width:500px;
 	
 }
-
+.side-tag{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+	
+}
 
 /* .teal {
   background-color: #00695c !important;
