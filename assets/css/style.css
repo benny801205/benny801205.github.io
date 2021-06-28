@@ -59,7 +59,7 @@
 }
 
 .facebook {
-  color: grey;
+  color: blue;
 }
 
 .icon-btn:hover {
@@ -72,7 +72,7 @@
 }
 
 .facebook:hover {
-  background-color: grey;
+  background-color: blue;
 }
 
 .github:hover {
