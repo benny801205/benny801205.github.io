@@ -598,7 +598,8 @@ span.label{
 	padding-right: .6em;
     padding-left: .6em;
     border-radius: 10rem;
-	margin: 3px;
+	margin-bottom: 3px;
+    margin-right: 3px;
 }
 
 .dark{
