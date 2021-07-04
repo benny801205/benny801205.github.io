@@ -585,7 +585,7 @@ small {
 	
 }
 
-span.label{
+.label{
 	
 	display: inline-block;
     padding: .25em .4em;
