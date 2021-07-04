@@ -602,7 +602,11 @@ small {
     margin-right: 3px;
 }
 
-
+.card a{
+	margin-right: 3px;
+	color: #fff;
+	text-transform: initial;
+}
 
 
 .dark{
