@@ -7,7 +7,7 @@ var hide_set =new Set()
 
 function isHide(string_list){
 	
-	string_list.foreach(function(item){
+	string_list.forEach(function(item){
 		if(!hide_set.has(item)){
 			return false;
 		}
