@@ -6,12 +6,11 @@ var hide_set =new Set()
 
 
 function isHide(string_list){
-	
-	string_list.forEach(function(item){
-		if(!hide_set.has(item)){
+	for (let i =0; i < string_list.length;i++){
+		if(!hide_set.has(string_list[i])){
 			return false;
 		}
-	})
+	}
 	return true;
 	
 	
