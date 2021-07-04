@@ -30,7 +30,7 @@ $('.display-label')
 	
 	hide_set.add(code)
 	$(target_project).each(function(){
-		if (isHide($(this).attr('value').split(' '))){
+		if (isHide(($(this).attr('value')).split(' '))){
 		$(this).hide()
 		}});
   })
