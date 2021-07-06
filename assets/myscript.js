@@ -1,6 +1,5 @@
 
-// a hide set
-
+// all project's attritbutes
 const all_attribute =['java',
 	'python',
 	'csharp',
@@ -11,11 +10,12 @@ const all_attribute =['java',
 	]
 
 
-
+//the attribute we want to display in the begining
 const prefer_attribute= [
 	"front-end",
 	"back-end"
 ];
+
 
 var hide_set =new Set(all_attribute)
 
@@ -31,6 +31,8 @@ function display_prefer_project(code){
 	
 	let this_label = "#hide-" + code
 	$(this_label).hide()
+	let target_label = '#display-'+ code
+	$(target_label).show()
 	
 	hide_set.delete(code)
 	
@@ -44,7 +46,7 @@ function display_prefer_project(code){
 
 
 
-
+//check if all labels are hided
 function isHide(string_list){
 	for (let i =0; i < string_list.length;i++){
 		if(!hide_set.has(string_list[i])){
