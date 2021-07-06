@@ -2,7 +2,11 @@
 // a hide set
 
 var hide_set =new Set()
+const display_list= [
+	"front-end",
+	"back-end"
 
+];
 
 
 function isHide(string_list){
