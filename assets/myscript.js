@@ -21,7 +21,7 @@ var hide_set =new Set(all_attribute)
 
 
 $('.project').hide()
-//prefer_attribute.forEach(code => display_prefer_project(code))
+prefer_attribute.forEach(code => display_prefer_project(code))
 
 
 
