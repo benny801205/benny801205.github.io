@@ -17,7 +17,7 @@
   perspective: 10em;
   perspective-origin: 50% calc(50% - 4em);
   position: relative;
-  bottom: 300px;
+  bottom: 250px;
 }
 
 .scene {
