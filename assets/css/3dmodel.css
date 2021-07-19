@@ -8,7 +8,7 @@
 .threeDcontainer {
 
   background-color: #000;
-  min-height: 100vh;
+  min-height: 500px;
   display: flex;
   overflow: hidden;
   justify-content: center;
@@ -17,7 +17,7 @@
   perspective: 10em;
   perspective-origin: 50% calc(50% - 4em);
   position: relative;
-  bottom: 250px;
+  bottom: 100px;
 }
 
 .scene {
