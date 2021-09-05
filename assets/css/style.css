@@ -538,6 +538,7 @@ h3 {
 
 .card .card-content {
   padding-bottom: 30px;
+  position: relative;
 }
 
 .card .card-content p {
@@ -706,10 +707,10 @@ small {
   background-color: #008073 !important;
 }
 
-.project-card{
+.card.medium.project-card{
 	
 	width:500px;
-	
+	height:390px;
 }
 .side-tag{
 	position: absolute;
@@ -831,6 +832,56 @@ a.label:hover{
   color:white;
 }
 
+.card.medium.project-card:hover {
+  height: auto;
+  transition: 0.5s;
+  transform: scale(1.02);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 80%);
+}
+.card-reveals{
+  z-index: 1;
+  padding: 0px 20px 20px 20px;
+  background-color: #FFF;
+  width: 100%;
+  overflow-y: auto;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transform: translateY(-300px);
+}
+.card.medium.project-card:hover .card-reveals{
 
+  transform: translateY(0px);
+  transition: 0.5s;
+
+
+
+}
+
+.card-image{
+  position: relative;
+  z-index: 10;
+  background: white;
+}
+.card-content{
+
+  position: relative;
+  z-index: 10;
+  background: white;
+}
+
+.project-card .card-reveals .card-action{
+  position: relative;
+}
+
+.card-reveals .card-title.grey-text{
+  display: none;
+}
+
+.project-card .card-content .card-title{
+
+  cursor: auto;
+}
 
 
