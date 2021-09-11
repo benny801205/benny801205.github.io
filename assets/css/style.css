@@ -576,11 +576,7 @@ small {
   background-color: #008073 !important;
 }
 
-.card.medium.project-card{
-	
-	width:500px;
-	height:390px;
-}
+
 .side-tag{
 	position: absolute;
     bottom: 0;
@@ -667,8 +663,8 @@ a.label:hover{
   background: lightblue;
   padding: 18 1 18 10;
   border-radius: 10px;
-  margin-right: 90px;
-  width: 530px;
+  margin-right: 5%;
+  width: 45%;
   box-shadow: 15px 15px 0px hsl(282deg 54% 43%);
   transition:all 0.5s;
   color: hsl(174deg 100% 25%);
@@ -688,7 +684,7 @@ a.label:hover{
   background: lightgray;
   padding: 18 1 18 10;
   border-radius: 10px;
-  width: 530px;
+  width: 45%;
   box-shadow: 15px 15px 0px hsl(282deg 66% 72%);
   transition:all 0.5s;
   color:black;
@@ -704,7 +700,7 @@ a.label:hover{
 .card.medium.project-card:hover {
   height: auto;
   transition: 0.5s;
-  transform: scale(1.01);
+  transform: scale(1.02);
   box-shadow: 0 20px 50px rgb(0 0 0 / 80%);
 }
 .card-reveals{
@@ -730,13 +726,13 @@ a.label:hover{
 
 .card-image{
   position: relative;
-  z-index: 10;
+  z-index: 2;
   background: white;
 }
 .card-content{
 
   position: relative;
-  z-index: 10;
+  z-index: 2;
   background: white;
 }
 
@@ -752,6 +748,9 @@ a.label:hover{
 
   cursor: auto;
 }
+
+
+
 
 /* .teal {
   background-color: #00695c !important;
@@ -808,7 +807,7 @@ a.label:hover{
     display: block;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
   }
   .name-title {
     display: block;
@@ -883,5 +882,3 @@ a.label:hover{
     background-position-x: 30%;
   }
 }
-
-
